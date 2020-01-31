@@ -1,0 +1,6 @@
+- name: create dpcop overcloud OpenStack charms and Juju config
+  hosts: all
+
+  roles:
+  - role:         roles/install_base
+
