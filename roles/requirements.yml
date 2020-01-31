@@ -1,0 +1,4 @@
+- src: https://github.com/hahuser/awx-tools.git
+  version: master
+  name: awx-tools
+
