@@ -1,4 +1,4 @@
-- src: https://github.com/hahuser/awx-roles.git
+- src:  git+ssh://github.com/hahuser/awx-roles.git
   version: master
   name: awx-roles
 
