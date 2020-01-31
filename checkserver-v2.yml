@@ -1,0 +1,8 @@
+---
+- name: Checking Server Config V2
+  hosts: all
+ 
+  tasks:
+ 
+  - name: Hello AWX - V2
+    shell: echo "Hi! this is check-V2"
