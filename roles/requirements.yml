@@ -1,3 +1,4 @@
 - src:  https://github.com/hahuser/awx-roles.git
-  scm: git
+  version: master
+  name: awx-roles
 
