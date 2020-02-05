@@ -1,0 +1,6 @@
+- name: Uninstall standard OS packages
+  hosts: all
+
+  roles:
+  - role:         awx-roles/uninstall_base
+
