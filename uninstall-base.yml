@@ -2,5 +2,5 @@
   hosts: all
 
   roles:
-  - role:         awx-roles/uninstall_base
+  - role: awx-roles/uninstall_base
 
