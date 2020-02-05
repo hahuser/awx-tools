@@ -1,4 +1,4 @@
-- name: create dpcop overcloud OpenStack charms and Juju config
+- name: Install standard RH packages
   hosts: all
 
   roles:
