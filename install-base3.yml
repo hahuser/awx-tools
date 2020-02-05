@@ -1,4 +1,4 @@
-- name: Install standard RH packages
+- name: Install standard OS packages
   hosts: all
 
   roles:
