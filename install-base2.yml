@@ -1,4 +1,6 @@
 ---
 - name: Install packages
-    roles:
-       - install_base
+  hosts: all
+
+  roles:
+  - role:         awx-roles/install_base
