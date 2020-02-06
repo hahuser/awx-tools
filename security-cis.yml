@@ -1,5 +1,6 @@
 - name: Configure security CIS baseline
   hosts: all
+  become: yes
 
   roles:
-    - role: Ubuntu1604-CIS
+    - role: awx-roles/Ubuntu1604-CIS
