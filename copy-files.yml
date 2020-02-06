@@ -1,0 +1,7 @@
+- name: Copy files from roles packeg
+  hosts: all
+  become: yes
+
+  roles:
+  - role: awx-roles/copy_files
+
