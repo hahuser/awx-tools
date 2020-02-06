@@ -6,7 +6,7 @@
 
 - src: https://github.com/florianutz/Ubuntu1604-CIS.git
   version: master
-  name: awx-roles
+  name: cis-roles
 
 # Install a role from the Ansible Galaxy (Quality Score: 5/5)
 #- src: florianutz.ubuntu1804_cis
