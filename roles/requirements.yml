@@ -4,3 +4,9 @@
   version: master
   name: awx-roles
 
+# Install a role from the Ansible Galaxy (Quality Score: 5/5)
+- src: florianutz.ubuntu1804_cis
+
+# Install a role from the Ansible Galaxy (Quality Score: 4.9/5)
+- src: florianutz.ubuntu1604-cis
+

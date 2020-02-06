@@ -1,0 +1,5 @@
+- name: Configure security CIS baseline
+  hosts: all
+
+  roles:
+    - role: Ubuntu1604-CIS
