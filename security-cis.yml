@@ -3,4 +3,4 @@
   become: yes
 
   roles:
-    - role: cis-roles/Ubuntu1604-CIS
+    - role: Ubuntu1604-CIS
