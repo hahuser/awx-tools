@@ -1,6 +1,7 @@
 ---
 - name: Add the user 'awsuser'
   hosts: all
+  become: yes
  
   tasks:
 
