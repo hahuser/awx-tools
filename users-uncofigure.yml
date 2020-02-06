@@ -1,0 +1,5 @@
+- name: Remove the user 'awsuser'
+  user:
+    name: awsuser
+    state: absent
+    remove: yes

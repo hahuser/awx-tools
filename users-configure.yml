@@ -1,0 +1,21 @@
+---
+- name: Add the user 'awsuser'
+  hosts: all
+ 
+  tasks:
+
+    - name: Add the user 'awsuser' with a specific uid and a primary group of 'admin'
+      user:
+        name: awsuser
+        comment: AWS user servcie account
+        uid: 1040
+        group: admin
+
+
+    - name: Create a 2048-bit SSH key for user awsuser in ~awsuser/.ssh/id_rsa
+      user:
+        name: awsuser
+        generate_ssh_key: yes
+        ssh_key_bits: 2048
+        ssh_key_file: .ssh/id_rsa
+
